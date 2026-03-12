@@ -2,16 +2,15 @@ const fs = require('fs');
 const chalk = require('chalk');
 
 /*
-	* Create By Naze
-	* Follow https://github.com/nazedev
-	* Whatsapp : https://whatsapp.com/channel/0029VaWOkNm7DAWtkvkJBK43
+	* Create By Soniix
+	* Follow https://github.com/
 */
 
 //~~~~~~~~~~~~< GLOBAL SETTINGS >~~~~~~~~~~~~\\
 
-global.owner = ["6282113821188"] // ['628','628'] 2 owner atau lebih
-global.author = 'Nazedev'
-global.botname = 'Hitori Bot'
+global.owner = ["6281238733745"] // ['628','628'] 2 owner atau lebih
+global.author = 'Sonnix'
+global.botname = 'Zeroo Bot'
 global.packname = 'Bot WhatsApp'
 global.timezone = 'Asia/Jakarta' // Ganti pakai command .settimezone Makasar
 global.locale = 'en' // Ganti pakai command .setlocale
@@ -34,8 +33,8 @@ global.fake = {
 global.my = {
 	yt: 'https://youtube.com/c/Nazedev',
 	gh: 'https://github.com/nazedev',
-	gc: 'https://chat.whatsapp.com/EApQZ65s9wF1UG5nD6Pinm?mode=gi_t',
-	ch: '120363250409960161@newsletter',
+	gc: ',
+	ch: '',
 }
 
 global.limit = {
@@ -73,7 +72,7 @@ global.APIs = {
 	naze: 'https://api.naze.biz.id',
 }
 global.APIKeys = {
-	'https://api.naze.biz.id': 'YOUR_API_KEY',
+	'https://api.naze.biz.id': 'GEMINI_API_KEY=AIzaSyBVp4EoCUF8aueBAtVs7X3JVUPD3H1jdKk ',
 }
 
 // Lainnya
@@ -94,4 +93,5 @@ fs.watchFile(file, () => {
 	console.log(chalk.yellowBright(`[UPDATE] ${__filename}`))
 	delete require.cache[file]
 	require(file)
+
 });
